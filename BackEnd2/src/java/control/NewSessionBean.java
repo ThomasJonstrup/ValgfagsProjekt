@@ -323,6 +323,7 @@ public class NewSessionBean implements ElectiveManager {
     public void updateElectiveSubjectRound1(int sujectId, String yesOrNo) {
             Electivesubject es = em.find(Electivesubject.class, sujectId);
             es.setRound1(yesOrNo);
+//            stu.setFirstpripoolaelectivesubjid(firstPriPoolAElectiveSubjID);
     }
 
     @Override
