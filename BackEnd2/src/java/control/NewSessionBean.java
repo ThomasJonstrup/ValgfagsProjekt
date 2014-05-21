@@ -300,7 +300,6 @@ public class NewSessionBean implements ElectiveManager {
         if (first && second && third && fourth) {
             isTheIdsInDB = true;
         }
-
         return isTheIdsInDB;
     }
 
