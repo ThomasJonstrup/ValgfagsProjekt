@@ -69,9 +69,6 @@ $("#makechoise").click(function() {
             <input type="hidden" name="command" value="makeChoises2_Command">
             <div>
                 <h2>Pool A</h2>
-                <c:forEach items="${PoolA}" var="pa">
-                    <p>Subject name: ${pa.name}. Subject id: ${pa.id}</p>
-                </c:forEach>
                 
                 <p style="display: inline">First priority(A)</p>
                 <select name="firstpriA" onchange="callSave(this);">
@@ -92,9 +89,6 @@ $("#makechoise").click(function() {
             </div>
             <div>
                 <h2>Pool B</h2>
-                <c:forEach items="${PoolB}" var="poolB">
-                    <p>Subject name: ${poolB.name}. Subject id: ${poolB.id}</p>
-                </c:forEach>
                 <p style="display: inline">First priority(B)</p>
                 <select name="firstpriB" onchange="callSave(this);">
                     <option value="-1">Vælg fag</option>

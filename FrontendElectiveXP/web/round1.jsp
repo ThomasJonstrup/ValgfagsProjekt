@@ -85,11 +85,6 @@
         <div id="subjects">
             <h2>Choose 2 first and 2 second priorities</h2>
 
-            <c:forEach items="${subjects}" var="subject">
-                <p>Subject name: ${subject.name}. Subject id: ${subject.id}</p>
-
-            </c:forEach>
-            </br><p>Write the subjects id you wish in the boxes below:</p>
             <form name="selectSubjects" id="selectSubjects" method="post" action="FrontController">
                 <input type="hidden" name="command" value="makeChoises_command">
                 <p style="color: red">${error}</p>
