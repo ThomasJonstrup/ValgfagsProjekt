@@ -22,7 +22,7 @@ public class Factory {
     private static Factory instance = null;
     private final HashMap<String, Command> commands = new HashMap<>();
 
-//    private ElectiveManager manager = new DummyBackend();ct
+//    private ElectiveManager manager = new DummyBackend();
     public Factory() {
         commands.put("main", new TargetCommand("main.jsp"));
         commands.put("subject", new FirstSelectionCommand("round1.jsp"));

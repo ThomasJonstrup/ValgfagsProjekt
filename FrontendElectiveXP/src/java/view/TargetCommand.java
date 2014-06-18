@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
  *
  * @author Thomas
  */
-public class TargetCommand implements Command{
+public class TargetCommand implements Command {
 
     private final String target;
 
