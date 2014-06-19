@@ -16,7 +16,7 @@ public class Eksperiment {
     public static void main(String[] args) {
         
         int number = 0;
-        int timeNumber = 7000;
+        int timeNumber = 10000;
         long t1 = (long) System.currentTimeMillis();
         
         for (int i = 0; i < timeNumber; i++) {
@@ -27,12 +27,13 @@ public class Eksperiment {
         
         System.out.println("Iterativ: " + (t2 - t1) + " millisekunder");
         
-        t1 = (long) System.currentTimeMillis();
+        long tr1 = (long) System.currentTimeMillis();
         
         rekursivMetode(timeNumber);
         
-        t2 = (long) System.currentTimeMillis();
-        System.out.println("Rekursiv: " + (t2 - t1) + " millisekunder");
+        long tr2 = (long) System.currentTimeMillis();
+        System.out.println("Rekursiv: " + (tr2 - tr1) + " millisekunder");
+        System.out.println("Iterativ: " + (t2 - t1) + " millisekunder");
         
     }
     

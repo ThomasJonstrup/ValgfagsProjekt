@@ -7,7 +7,6 @@ package test;
 
 import backend.DummyBackend;
 import electivexp.dto.PrioritiesInfoDTO;
-import model.Priorities;
 import model.PoolS;
 import java.util.ArrayList;
 import model.ElectiveSubject;
