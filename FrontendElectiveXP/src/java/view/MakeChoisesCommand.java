@@ -117,6 +117,7 @@ class MakeChoisesCommand extends TargetCommand {
             } else {
                 request.setAttribute("error",
                         "You have chosen some id's that are not in the list, please go back and chose some id's that exists in table .....");
+                            request.setAttribute("subjects", Factory.getInstance().getManager().getSubjects());
                 return "round1.jsp";
             }
         } else {

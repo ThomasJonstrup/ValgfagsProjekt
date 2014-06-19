@@ -116,14 +116,6 @@
                         <option value="${subject.id}">${subject.name}</option>
                     </c:forEach>
                 </select>
-                <!--            <p style="display: inline">First priority(1)</p>
-                            <input type="text" name="firstpri1" value="{firstpri1}" unique="currency" onkeypress="return onlyNumbers();">
-                            <p style="display: inline">First priority(2)</p>
-                            <input type="text" name="firstpri2" value="{firstpri2}" unique="currency" onkeypress="return onlyNumbers();">
-                            <p style="display: inline">Second priority(1)</p>
-                            <input type="text" name="secondpri1" value="{secondpri1}" unique="currency" onkeypress="return onlyNumbers();">
-                            <p style="display: inline">Second priority(2)</p>
-                            <input type="text" name="secondpri2" value="{secondpri2}" unique="currency" onkeypress="return onlyNumbers();"></br>-->
                 <input type="submit" name="makeChoises" id="makechoise" value="Make choises">
 
             </form>
